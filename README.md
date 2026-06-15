@@ -1,2 +1,13 @@
 # atividade-c
-Atividade acadêmica desenvolvida em Linguagem C contendo exercícios sobre IF, FOR, WHILE, DO...WHILE e SWITCH-CASE.
+# Lista de Exercícios em Linguagem C
+
+Atividade acadêmica contendo exercícios sobre:
+
+- Estruturas Condicionais (if)
+- Estruturas de Repetição (for)
+- While
+- Do While
+- Switch Case
+
+Desenvolvido por:
+Luan de Sousa
