@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <string.h>
 
 int main() {
 printf("\n***************************************************************************\n");
 printf("\n* Aluno: Luan de Sousa Lutes Galvao - RA: 0025992                         *\n");
-printf("\n* JPA-22: Par ou Impar                                                    *\n");
+printf("\n* JPA-30: Fatorial de um numero                                           *\n");
 printf("\n***************************************************************************\n");
-    int numero;
+
+    int n, i;
+    long long fatorial = 1;
 
     printf("Digite um numero: ");
-    scanf("%d", &numero);
+    scanf("%d", &n);
 
-    if (numero % 2 == 0)
-        printf("Par.\n");
-    else
-        printf("Impar.\n");
+    for (i = 1; i <= n; i++) {
+        fatorial *= i;
+    }
+
+    printf("Fatorial = %lld\n", fatorial);
 
     return 0;
 }

@@ -1,22 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <string.h>
 
 int main() {
 printf("\n***************************************************************************\n");
 printf("\n* Aluno: Luan de Sousa Lutes Galvao - RA: 0025992                         *\n");
-printf("\n* JPA-22: Par ou Impar                                                    *\n");
+printf("\n* JPA-32: Quadrado dos Numeros de 1 a 10                                  *\n");
 printf("\n***************************************************************************\n");
-    int numero;
 
-    printf("Digite um numero: ");
-    scanf("%d", &numero);
+    int i;
 
-    if (numero % 2 == 0)
-        printf("Par.\n");
-    else
-        printf("Impar.\n");
+    for (i = 1; i <= 10; i++) {
+        printf("%d² = %d\n", i, i * i);
+    }
 
     return 0;
 }
